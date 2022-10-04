@@ -5,8 +5,13 @@
 //Se igualan a un espacio de memoria ejemplo 'array[] o array()'.
 
 $dias = array('lunes<br>','Martes<br>','Miercoles<br>','Jueves<br>','Viernes');
+echo 'Este es el resultado con print_r:';
+echo '<br>';
 print_r($dias); //Nos da la posición del Array
 echo '<br>';
+echo '<br>';
+
+echo 'Este es el resultado con var_dump:';
 echo '<br>';
 var_dump($dias); //Nos da la posición, el tipo de dato y la cantidad de carácteres
 echo '<br>';
@@ -20,5 +25,17 @@ echo '<br>';
 //Estas se llamarán 'llaves'.
 
 $datosPersonales = array('nombre'=>'Brayan','apellido'=>'CaraDePerro','novio'=>'Walter');
-echo "Mi nombre es:".$datosPersonales['nombre'].' '.$datosPersonales['apellido']."y mi novio se llama".$datosPersonales['novio'];
+echo "Mi nombre es: ".$datosPersonales['nombre'].' '.$datosPersonales['apellido']."y mi novio se llama".$datosPersonales['novio'];
+//------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 ?>

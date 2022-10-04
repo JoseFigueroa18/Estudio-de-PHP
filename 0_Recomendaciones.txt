@@ -1,0 +1,12 @@
+1.Utilizar un gestor de servicios web como XAMPP o Laragon, 
+  que nos permite crear un servidor local, para ejecutar nuestros scripts.
+
+2.Si se usa XAMPP, se debe ejecutar y
+  activar apache en la parte donde dice start.
+
+2.Las carpetas (Esta por ejemplo) deben crearse en C:\xampp\htdocs
+  para poder ser ejecutadas en el navegador.
+
+3.Para poder ver los resultados debe colocarse en 
+  la barra del navegador de preferencia: http://localhost/guia_php/
+

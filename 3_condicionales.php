@@ -15,6 +15,8 @@
 $numero_uno = 8;
 $numero_dos = 4;
 
+echo 'Resultado de la condicional if: ';
+echo '<br>';
 if ($numero_uno < $numero_dos) 
 {
     echo "$numero_uno es menor que $numero_dos";
@@ -25,12 +27,17 @@ elseif ($numero_uno == $numero_dos) {
 else {
     echo "$numero_uno es mayor que $numero_dos";
 }
+echo '<br>';
 //------------------------------------------------------------------------------------------------------------
 
 /*Case*/
 //Para usar la condicional case, simplemente basta con definir el valor de la variable,
 //acorde a esta nos dará una respuesta.
+
 $numero = 'java'; //El valor de la variable es igual a el caso numero 2
+echo '<br>';
+echo 'Resultado de la condicional switch: ';
+echo '<br>';
 switch ($numero) {
     case 'php':
         echo 'lunes y martes';
