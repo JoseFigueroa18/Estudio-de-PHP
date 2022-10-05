@@ -1,4 +1,5 @@
 <?php
+/*Funciones Definidas*/ 
 //Arreglos de ejemplo, para utilizar las funciones.
 //Podríamos utilizar solo uno para utilizar el principio de DRY; Pero,
 //utilizamos varias, porque php ejecuta de manera lineal, 
